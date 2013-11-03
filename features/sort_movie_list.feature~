@@ -30,8 +30,6 @@ Scenario: sort movies alphabetically
   
 
 Scenario: sort movies in increasing order of release date
-  When I check the following ratings: G,R,PG-13,PG
-  And I press "Refresh"
   When I follow "Release Date"
   # your steps here
 

@@ -42,6 +42,7 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   And I should not see "2001: A Space Odyssey"
   And I should not see "Chicken Run"
 
+
 Scenario: no ratings selected
   # see assignment
   When I uncheck the following ratings: G,R,PG-13,PG
