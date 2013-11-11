@@ -34,4 +34,5 @@ Scenario: sort movies in increasing order of release date
   And I press "Refresh"
   When I follow "Release Date"
   # your steps here
+  Then I should see "1968-04-06" before "1984-10-26"
 
